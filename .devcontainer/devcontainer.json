@@ -1,0 +1,13 @@
+{
+  "name": "SnakeOS",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {},
+  "postCreateCommand": "sudo apt update && sudo apt install -y build-essential nasm qemu-system-x86 xorriso grub-pc-bin",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  }
+}
